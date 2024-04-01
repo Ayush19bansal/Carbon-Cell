@@ -2,6 +2,10 @@
 
 Description of your project.
 
+## Project Description
+
+This project is a web application designed to provide users with various features such as viewing population data, tracking cryptocurrency prices, accessing medium posts, and managing MetaMask wallets. It includes several components that integrate different APIs and libraries to deliver a seamless user experience.
+
 ## Components
 
 ### 1. Graph Component
@@ -61,3 +65,7 @@ Guidelines for contributing to the project.
 ## License
 
 Information about the project's license.
+
+## Hosted Link
+
+[Visit the hosted application](https://example.com)
