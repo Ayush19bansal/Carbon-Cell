@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description of your project.
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+### 1. Graph Component
 
-### `npm start`
+![Graph Component](graph_component_image.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Description: The Graph component renders a line chart displaying population data for the United States. It fetches data from the Data USA API and visualizes it using the Recharts library.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Wallet Component
 
-### `npm test`
+![Wallet Component](wallet_component_image.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Description: The Wallet component renders a pie chart showing the distribution of cryptocurrency values. It fetches cryptocurrency data from the CoinDesk API and displays it as a pie chart using the Recharts library.
 
-### `npm run build`
+### 3. Navigation_Bar Component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Navigation_Bar Component](navigation_bar_component_image.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Description: The Navigation_Bar component provides navigation links and user profile information. It includes icons for different pages and user settings, allowing users to navigate through the application easily.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Right Component
 
-### `npm run eject`
+![Right Component](right_component_image.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Description: The Right component displays various sections of the application, including a greeting message, graph, wallet information, and recent posts. It provides a user-friendly interface for interacting with different features of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. EmbeddedMediumPage Component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![EmbeddedMediumPage Component](embedded_medium_page_component_image.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Description: The EmbeddedMediumPage component embeds a medium page within the application. It allows users to view medium posts without leaving the application environment, providing a seamless browsing experience.
 
-## Learn More
+### 6. MetaMask Component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![MetaMask Component](metamask_component_image.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Description: The MetaMask component integrates MetaMask wallet functionality into the application. It allows users to activate their MetaMask wallet directly from the application, enabling seamless transactions and interactions with blockchain networks.
 
-### Code Splitting
+### 7. HamBurgerPage Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![HamBurgerPage Component](hamburger_page_component_image.png)
 
-### Analyzing the Bundle Size
+Description: The HamBurgerPage component displays a hamburger menu for accessing different pages of the application. It provides a responsive and intuitive navigation menu for mobile and desktop users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Installation
 
-### Making a Progressive Web App
+Instructions for installing and running the project locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+Instructions for using the project and its features.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Guidelines for contributing to the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Information about the project's license.
