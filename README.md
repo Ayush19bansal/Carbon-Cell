@@ -2,7 +2,6 @@
 ## Hosted Link
 [Visit the hosted application](https://carbon-cell-two.vercel.app/)
 
-Description of your project.
 
 ## Project Description
 
@@ -12,7 +11,8 @@ This project is a web application designed to provide users with various feature
 
 ### 1. Graph Component
 
-![Graph Component](graph_component_image.png)
+![image](https://github.com/Ayush19bansal/Carbon-Cell/assets/118842033/5e1c63d0-c239-4ea2-8bc6-8a2dbeb7d728)
+
 
 Description: The Graph component renders a line chart displaying population data for the United States. It fetches data from the Data USA API and visualizes it using the Recharts library.
 
