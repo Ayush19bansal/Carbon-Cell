@@ -1,4 +1,6 @@
 # Project Name
+## Hosted Link
+[Visit the hosted application](https://example.com)
 
 Description of your project.
 
@@ -66,6 +68,11 @@ Guidelines for contributing to the project.
 
 Information about the project's license.
 
-## Hosted Link
 
-[Visit the hosted application](https://example.com)
+
+## Project Final UI
+
+![image](https://github.com/Ayush19bansal/Carbon-Cell/assets/118842033/b28092c2-83c3-4595-a070-2bf1b2261a8f)
+
+
+
