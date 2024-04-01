@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.graphh1 {
+  color: #d1dad1;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .hide{
+     display: block; 
+  }
+  .navbarContainer{
+    display: none;
+}
+.home ,.metacont,.embed-container{
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+
+.maincontainer{
+  height: 80%;
+  width: 100%;
+  margin-inline:1.5%;
+  /* border: 2px solid red; */
+}
+.metacotainer{
+  height: 70%;
+  width: 100%;
+  margin-left: 5%;
+  display: block;
+
+  /* border: 2px solid rgb(38, 0, 255); */
+}
+
+.meta2{
+  height:100%;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.embed-container iframe{
+  width: 100%;
+  height: 100%;  
+  /* border: 2px solid red; */
+
+}
+
+  }
+
+      
+  @media screen and (max-width: 410px) {
+.App{
+  height: 150vh;
+  /* border: 2px solid rgb(0, 255, 106); */
+
+}
+        }

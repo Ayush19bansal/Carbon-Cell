@@ -1,0 +1,52 @@
+.ham{
+    height: 100%;
+    width: 100%;
+    background-color: #213B4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerdiv{
+    height: 90%;
+    width: 90%;
+    background-color: whitesmoke;
+    /* margin: auto; */
+    position: relative;
+    
+}
+
+.close{
+    position: absolute;
+    right: 3%;
+    font-size: 2rem;
+    top: 3%;
+    cursor: pointer;
+}
+
+.lihamm{
+    color: #0a2d16;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 8%;
+    font-weight: 700;
+    margin-bottom: 5%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.active{
+    color: #2AB42A;
+   
+  list-style: none; /* Remove bullet points */
+  text-decoration: none; /* Remove underline */
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    font-weight: 500;
+    margin-top: 8%;
+    cursor: pointer;
+}
+.liham{
+    list-style: none;
+}

@@ -1,0 +1,378 @@
+.maincontainer{
+    height: 100%;
+    width: 80%;
+    margin-inline:1.5%;
+    /* border: 2px solid red; */
+}
+.uppersection{
+    margin-top: 3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uppersection h2{
+    font-weight: 500;
+}
+.uppersection h2 span{
+    color: #A6E36B;
+}
+.uppersection h3{
+    margin-top: 1.7%;
+    font-weight: 500;
+}
+.uppersection h3 span{
+    color: #2AB32A;
+}
+.uppersection button{
+    background-color: #2AB42A;
+    height: 45px;
+     width: 122px;
+     border-radius: 4px;
+    border: none;
+    color: rgb(246, 240, 240);
+    font-size: medium;
+}
+.graph{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:  65%;
+    background-color: #171717;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 10%;
+    margin-left: 7%;
+}
+.price{
+    margin-top: 10px;
+    
+}
+.currency{
+    margin-top: 10px;
+    margin-left: 10%;
+
+}
+.graph_wallet{
+    margin-top: 3%;
+    display: flex;
+    height: 46%;
+    width: 100%;
+    gap: 2%;
+    /* flex-direction: column; */
+}
+
+.wallet {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:  30%;
+    /* border: 1px solid fuchsia; */
+    background-color: #171717;
+    border-radius: 20px;
+    padding-block: 20px;
+}
+.contt{
+    /* border: 1px solid darkgreen; */
+    height: 100%;
+    width: 100%;
+}
+.cont{
+    height: 90%;
+    margin-top: 15px;
+   
+}
+.conttt{
+    height: 90%;
+    background-color: #000000;
+    width: 85%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.graph_wallet hr{
+    width: 87%;
+    background-color: #3B3B3B;
+    color: #3B3B3B;
+    height: 1px;
+    margin-top: 2%;
+}
+.optional{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:  26%;
+    /* border: 1px solid fuchsia; */
+    background-color: #171717;
+    border-radius: 20px;
+    padding-block: 20px;
+}
+.carbon-cell{
+    margin: 10px;
+    display: flex;
+    gap: 15px;
+    color: whitesmoke;
+}
+.name{
+    display: flex;
+    gap: 5px;
+}
+.carbon-cell p{
+    margin-top: 3px;
+    font-size: 12px;
+    color: rgb(213, 212, 209);
+}
+a{
+    color: #2AB32A;
+}
+.belowpart hr{
+    width: 87%;
+    background-color: #3B3B3B;
+    color: #3B3B3B;
+    height: 1px;
+    margin-top: 2%;
+}
+
+.belowpart{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid greenyellow; */
+}
+.metacard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    border: 1px solid #F56806;
+    border-radius: 10px;
+
+}
+.contttt{
+    position: relative;
+    width: 100%;
+    /* border: 1px solid burlywood; */
+    height: 90%;
+}
+.contttt img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.contttt button{
+    position: absolute;
+    top: 80%;
+    left:  75%;
+    background-color: #EE2902;
+    border: none;
+    font-size: 14px;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+.embed-container{
+    display:flex ;
+    height: 100%;
+    width: 100%;
+}
+
+.assetspart{
+    display: flex;
+    /* align-items: center; */
+    color: wheat;
+    width: 75%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.bt{
+    height: 20%;
+    width: 10%;
+    color: white;
+    font-size: 17px;
+    background-color: #2AB32A;
+    border: none;
+}
+.caa{
+    background-color: #171717;
+    height: 100%;
+    width: 30%;
+    color: white;
+    padding: 1.5%;
+    border-radius: 15px;
+}
+.caa p{
+    color: rgba(240, 238, 235, 0.456);
+    margin-block: 5%;
+  }
+  .caa h4{
+      margin-bottom: 5%;
+  }
+  .dono{
+    display: flex;
+    width: 80%;
+    /* border: 1px solid blueviolet; */
+    /* justify-content: space-between; */
+    gap: 4%;
+  }
+
+  .fll{
+    display: flex;
+    color: #1b8850;
+    font-size: 1.5rem;
+    margin-top: 7%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .fll button {
+    background-color: #2ab42a;
+    border: none;
+    padding: 7px;
+    padding-inline: 10px;
+    font-size: medium;
+    color: whitesmoke;
+  }
+
+  @media screen and (max-width: 1225px) {
+    .remove{
+        display: none;
+    }
+    .contttt button{
+        left:68% ;
+    }
+    
+  }
+  @media screen and (max-width: 1162px) {
+    .remove{
+        display: none;
+    }
+    .contttt button{
+        left:68% ;
+    }
+    
+  }
+  @media screen and (max-width: 1040px) {
+    .price,.currency,.cont{
+        margin-top: 5px;
+    }
+    .rem2{
+        display: none;
+    }
+    .name img{
+        display: none;
+    }
+    .caa{
+        font-size: small;
+    }
+    .contttt button{
+        left:60% ;
+        top: 75%;
+    }
+
+  }
+
+  @media screen and (max-width: 960px) {
+   .graph_wallet{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* border: 1px solid rgb(43, 226, 119); */
+    height: 50%;
+    
+   }
+   .dono{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+   }
+   .graph{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:  60%;
+    background-color: #171717;
+    border-radius: 20px;
+    padding-top: 10px;
+    /* border: 1px solid blueviolet; */
+   }
+   .optional{
+    display: none;
+   }
+   .wallet{
+    width:  40%;
+   }
+
+  }
+
+  @media screen and (max-width: 750px) {
+   .fll{
+    display: none;
+   }
+   .contttt button{
+    display: none;
+   }
+   .caa p{
+    font-size: small;
+   }
+   .caa h4{
+    font-size: small;
+   }
+   }
+
+   @media screen and (max-width: 700px) {
+    
+  .maincontainer{
+    height: 86%;
+    width: 100%;
+    margin-inline:0%;
+    padding-inline: 3%;
+    /* border: 2px solid red; */
+  }
+
+  .dono{
+    /* border: 1px solid red; */
+    height: 100%;
+  }
+ 
+    }
+
+    
+   @media screen and (max-width: 410px) {
+  .graph_wallet{
+    /* border: 2px solid red; */
+    height: 70%;
+  }
+  .graph{
+    width: 100%;
+  }
+  .wallet{
+    width: 100%;
+  }
+    .dono{
+      /* border: 1px solid red; */
+      flex-direction: column;
+      height: 100%;
+    }
+   .belowpart{
+    /* border: 1px solid green; */
+    height: 20.6%;
+   }
+    .metacard , .caa{
+        height: 100%;
+    }
+   
+      }
