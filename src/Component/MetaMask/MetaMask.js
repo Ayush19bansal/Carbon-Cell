@@ -61,7 +61,7 @@ function MetaMask() {
       ) : (
         <>
           <button onClick={handleConnectWallet}>Connect Wallet</button>
-          {error && <p>{error}</p>}
+          {error && <p className='error'>{error}</p>}
         </>
       )}
       </div>
