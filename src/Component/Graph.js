@@ -44,12 +44,12 @@ function Graph() {
           }}
         >
 
-          <CartesianGrid strokeDasharray="4 4"  vertical=""/>
+          <CartesianGrid strokeDasharray="4 4"  vertical="" stroke="#000000"/>
           <XAxis dataKey="Year" interval={'preserveStartEnd'} >
             <Label value="Year" position="bottom"  />
           </XAxis>
           <YAxis domain={[308000004, 331928781]} >
-            <Label value="Population" angle={-90} position="insideLeft" offset={-60}/>
+            <Label value="Population" angle={-90} position="insideLeft" offset={-60} />
           </YAxis>
           <Tooltip />
           <Legend verticalAlign="top" height={36}/>
