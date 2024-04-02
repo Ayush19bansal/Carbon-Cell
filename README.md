@@ -63,7 +63,8 @@ Description: The EmbeddedMediumPage component embeds a medium page within the ap
 
 Description: The MetaMask component integrates MetaMask wallet functionality into the application. It allows users to activate their MetaMask wallet directly from the application, enabling seamless transactions and interactions with blockchain networks.
 
-#### MetaMask Wallet
+### When you click on Activate Button or on Wallet in side Navigation bar it redirect to 
+### Meta Mask Wallet 
 
 ![MetaMask Wallet](https://github.com/Ayush19bansal/Carbon-Cell/assets/118842033/45e3c4ec-9416-440a-8dd4-673731113a85)
 
